@@ -106,12 +106,15 @@ body a:hover {
   /* width: 70%; */
   font-weight: 400;
   margin: 0;
+  word-spacing: normal !important;
+  font-family: "Baloo Tamma 2", cursive;
   line-height: 2em;
 }
 .info-bottom p {
   color: #fff;
   font-size: 14px;
   line-height: 2em;
+  word-spacing: normal;
   font-weight: 400;
   margin-top: 4%;
   font-family: "Baloo Tamma 2", cursive;
@@ -155,13 +158,9 @@ body a:hover {
   /* padding: 7em 0px; */
   padding-top: 7rem;
 }
-.remember-left {
-  height: 500px;
-}
 
 .remember-left h3 {
   font-family: "Baloo Tamma 2", cursive;
-  /* text-align: justify; */
   color: #0e1014;
   font-size: 1.8em;
   word-spacing: 0px !important;
@@ -181,10 +180,10 @@ body a:hover {
 }
 .l-btn a {
   color: #fff;
-  padding: 7px 30px;
+  padding: 4px 17px;
   font-size: 15px;
   font-weight: 400;
-  background: 118px 11.5px #ff1732;
+  background: 100px 11.5px #ff1732;
   border-radius: 2.3em;
   -webkit-border-radius: 2.3em;
   -moz-border-radius: 2.3em;
@@ -211,10 +210,10 @@ body a:hover {
 }
 .r-btn a {
   color: #fff;
-  padding: 7px 30px;
+  padding: 4px 17px;
   font-size: 15px;
   font-weight: 400;
-  background: 118px 11.5px #ff1732;
+  background: 100px 11.5px #ff1732;
   border-radius: 2.3em;
   -webkit-border-radius: 2.3em;
   -moz-border-radius: 2.3em;
@@ -253,6 +252,7 @@ body a:hover {
   padding: 5.15em 0px;
 }
 .comment-right p {
+  word-spacing: normal;
   color: #fff;
   line-height: 2.5em;
   font-family: "Baloo Tamma 2", cursive;
@@ -1060,6 +1060,7 @@ div#portfoliolist {
   font-size: 17px;
   font-weight: 500;
   margin: 10px;
+  margin-bottom: 17px !important;
   width: 180px;
   text-align: center;
   background: #ff1732;
@@ -1081,7 +1082,7 @@ iframe {
 }
 .y-btn a {
   color: #fff;
-  padding: 7px 30px;
+  padding: 4px 20px;
   font-size: 17px;
   width: 180px;
   font-weight: 500;
@@ -1399,10 +1400,8 @@ iframe {
   }
 }
 @media (max-width: 1200px) {
-  .remember-left {
-    height: 450px;
-  }
   .remember-right img {
+    height: 300px;
     width: 100%;
   }
   .remember-left,
@@ -1674,12 +1673,9 @@ iframe {
   .remember-right img {
     width: 100% !important;
   }
-  .remember-left p {
-    text-align: justify;
-  }
   .remember-left h3 {
     font-size: 1.4em;
-    text-align: center;
+
     width: auto;
     display: inline;
   }
@@ -1732,9 +1728,6 @@ iframe {
 @media (max-width: 768px) {
   .works {
     margin-top: 50px;
-  }
-  .remember-left {
-    height: 210px;
   }
 
   .logo a h1 {
@@ -1947,16 +1940,11 @@ iframe {
   .remember-left h3 {
     font-size: 1.5em;
     width: 100%;
-
-    text-align: justify !important;
-    /* height: 72px; */
   }
   .remember-left p {
     word-spacing: 3px;
-    text-align: center;
-    margin-top: 11px;
 
-    /* height: 65px; */
+    margin-top: 11px;
   }
 
   .comment-left,
@@ -2072,9 +2060,6 @@ iframe {
   }
 }
 @media (max-width: 734px) {
-  .remember-left {
-    height: 250px;
-  }
   .start-img {
     margin-top: -40px;
   }
@@ -2365,7 +2350,7 @@ iframe {
 }
 @media (max-width: 540px) {
   .start-img {
-    margin-top: -50px;
+    margin-top: 50px;
   }
 }
 @media (max-width: 554px) {
@@ -2386,6 +2371,11 @@ iframe {
     margin-right: 10px;
     line-height: 1.6em;
     font-size: 17px;
+  }
+}
+@media (max-width: 510px) {
+  .start-img {
+    margin-top: 80px;
   }
 }
 @media (max-width: 499px) {
@@ -2547,7 +2537,6 @@ iframe {
   .remember-right {
     width: 100%;
     float: none;
-    text-align: center;
   }
   .remember-right {
     margin-top: 20px;
@@ -2649,13 +2638,11 @@ iframe {
     text-align: center;
   }
 }
-
-@media (max-width: 447px) {
-  .remember-left {
-    height: 320px;
+@media (max-width: 427px) {
+  .start-img {
+    margin-top: 110px;
   }
 }
-
 @media (max-width: 425px) {
   iframe {
     width: 350px;
@@ -2668,9 +2655,7 @@ iframe {
     width: 350px;
     height: 260px;
   }
-  .remember-right {
-    margin-top: 70px;
-  }
+
   .info-bottom h3 {
     font-size: 1.2em;
     line-height: 1.6em;
@@ -2697,13 +2682,22 @@ iframe {
   }
 }
 
+@media (max-width: 411px) {
+  .start-img {
+    margin-top: 140px;
+  }
+}
 @media (max-width: 405px) {
   .info-bottom ul li {
     padding: 15px 0;
     width: 30%;
   }
 }
-
+@media (max-width: 380px) {
+  .start-img {
+    margin-top: 170px;
+  }
+}
 @media (max-width: 374px) {
   .clients-main ul li img {
     text-align: center;
@@ -2725,10 +2719,7 @@ iframe {
 }
 @media (max-width: 397px) {
   .start-img {
-    margin-top: -80px;
-  }
-  .remember-right {
-    margin-top: 90px !important;
+    margin-top: -86 0px;
   }
 }
 @media (max-width: 367px) {
@@ -2743,14 +2734,8 @@ iframe {
     width: 300px;
     height: 230px;
   }
-  .remember-left {
-    height: 360px;
-  }
 }
 @media (max-width: 345px) {
-  .remember-right {
-    margin-top: 120px !important;
-  }
   .info-bottom ul li {
     padding: 15px 0;
     width: 35%;
@@ -2765,9 +2750,6 @@ iframe {
 }
 
 @media (max-width: 323px) {
-  .remember-right {
-    margin-top: 150px !important;
-  }
 }
 @media (max-width: 320px) {
   .cbp-spmenu-vertical a {
@@ -2992,8 +2974,5 @@ iframe {
   }
 }
 @media (max-width: 300px) {
-  .remember-right {
-    margin-top: 180px !important;
-  }
 }
 /*--media-quaries-ends-here--*/
